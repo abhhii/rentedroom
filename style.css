@@ -16,35 +16,47 @@ body
     filter: dropshadow(color=#000000, offx=1, offy=1);
 }
 
+#headcontainer{
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+    margin-top: 2px;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
 header
 {
 	
-	margin-top:30px;
+	
+    display: flex;
+    justify-content:center;
+    
+    
 	position:absolute;
 	z-index:5;
-	width:50%;
+	width:70vh;
 	padding-top:10px;
 	padding-bottom:10px;
-    padding-left: 40%;
-    padding-right: 40%;
-    align-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* align-content: center; */
 
 }
 
-h1{
+.headtext{
+    font-size: 36px;
+    padding-bottom: 5px;
+    word-wrap: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* h1{
 	
 	font-size:36px;
 	letter-spacing:-2.5px;
 	margin-left:30px;
-}
-
-h3{
-	
-	font-size:16px;
-	letter-spacing:-1.5px;
-	margin-top:5px;
-	margin-left:35px;
-}
+} */
 
 #fps
 {
@@ -61,6 +73,11 @@ a
 a:hover
 {
 	color:rgba( 255, 255, 255, 1 );
+}
+
+.perks{
+    font-size: 18px;
+    color: black;
 }
 
 /* hardware accelatator class */	
@@ -131,7 +148,7 @@ a:hover
 		margin-left:-160px;
 		margin-top:-50px;
 		text-align:center;
-		padding-top:50px;
+		padding-top:10px;
 		
 	}
 
